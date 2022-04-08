@@ -1,0 +1,18 @@
+h1{
+    background-image: url("Fondorarohead.jpeg")  ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: 550%;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 70px;
+background-color(red);
+    align-content: center;
+    color:firebrick;
+    font-family: revert;
+    font-size: 3em;
+    text-align:center;
+
+}
