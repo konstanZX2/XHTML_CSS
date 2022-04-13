@@ -1,0 +1,44 @@
+table{
+    border-spacing: 1px;
+    background-color: rgba(186,0,12,0.99);
+    box-shadow: rgba(23,8,31,0.85);
+    box-shadow: 10px 10px;
+    color: black;
+    border-color: black;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-family: MathJax_Fraktur;
+    font-size: x-large;
+    border-collapse: collapse;
+
+}
+td{
+    border-spacing: 10px;
+    border-color:black;
+    color: black;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th{
+    border-spacing: 10px;
+    border-color: black;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+
+
+
+}
+body {
+    background-image: url("lluviasangre2.png");
+    background-size: 1370px 720px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+h1,h2{
+    background-color: darkgreen;
+    width: 10px;
+}
