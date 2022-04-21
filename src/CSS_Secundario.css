@@ -11,6 +11,7 @@ table{
     font-family: MathJax_Fraktur;
     font-size: x-large;
     border-collapse: collapse;
+    text-align: center;
 
 }
 td{
@@ -31,14 +32,45 @@ th{
 
 }
 body {
-    background-image: url("lluviasangre2.png");
-    background-size: 1370px 720px;
-    background-repeat: no-repeat;
+    background: url("lluviasangre2.png"),no-repeat,center;
+    background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+
+
 
 
 }
+h1,h2,li,p,ul,ol{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+}
 h1,h2{
-    background-color: darkgreen;
-    width: 10px;
+    text-align: center;
+    display: inline-block;
+    position: center;
+    font-family: MathJax_Fraktur;
+}
+p{
+    text-align: center;
+    display: inline-block;
+    position: center;
+    font-family: MathJax_Fraktur;
+}
+ul{
+    text-align: left;
+}
+ol,li{
+
+}
+
+pre{
+background-color: transparent;
 }
