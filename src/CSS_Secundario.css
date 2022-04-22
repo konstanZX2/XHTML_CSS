@@ -20,6 +20,7 @@ td{
     color: black;
     border: 3px solid black;
     border-collapse: collapse;
+
 }
 th{
     border-spacing: 10px;
@@ -40,8 +41,92 @@ body {
 
 
 
+
 }
-h1,h2,li,p,ul,ol{
+h1{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 10px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    text-align: center;
+    display: inline-block;
+    position: center;
+    font-family: MathJax_Fraktur;
+    font-size: 70px;
+    margin: 10px;
+    padding: 100px;
+    background-image: url("lluviasangre1.jpg");
+    background-position: center;
+    color: #df2d00;
+    -webkit-text-stroke: 5px black;
+    text-shadow: 0em 2px red;
+
+
+
+}
+
+h2{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 10px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    display: inline-block;
+    position: center;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    text-align: center;
+    display: inline-block;
+    position: center;
+    font-family: MathJax_Fraktur;
+    font-size: 20px;
+}
+ul{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    text-align: left;
+}
+ol{
+    background-color: rgba(186,0,12,0.99);
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    font-size: 20px;
+}
+li{
     background-color: rgba(186,0,12,0.99);
     background-size-contain: auto;
     border: 3px solid black;
@@ -52,25 +137,27 @@ h1,h2,li,p,ul,ol{
     text-rendering: auto;
     background-clip: border-box;
 }
-h1,h2{
-    text-align: center;
-    display: inline-block;
-    position: center;
-    font-family: MathJax_Fraktur;
+
+hr{
+    border: 3px solid black;
 }
-p{
-    text-align: center;
-    display: inline-block;
-    position: center;
-    font-family: MathJax_Fraktur;
-}
-ul{
-    text-align: left;
-}
-ol,li{
+img{
+    align-content: center;
+    border: 10px solid black;
+    border-collapse: collapse;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
 
 }
 
 pre{
 background-color: transparent;
 }
+a{
+    font-size: 40px;
+    position: static;
+    left: 100px;
+
+}
+
