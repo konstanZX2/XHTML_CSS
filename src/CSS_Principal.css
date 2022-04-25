@@ -1,25 +1,166 @@
 h1{
-    /*background-image: url("Fondorarohead.jpeg")  ;*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: scroll;*/
-    /*background-position: 50% 50%;*/
-    /*background-size: 150% 100%;*/
     align-items: center;
     margin-left: 70px;
-background-color(red);
     align-content: center;
-    color:firebrick;
-    font-family: revert;
     font-size: 3em;
     text-align:center;
-
-}
-#titulo{
     height: 120px;
     width: 1400px;
+    background-position: center;
+    background-size: cover;
+    color: #ff68d6;
+    -webkit-text-stroke: 2px black ;
+    text-shadow: 0em 2px red;
+    background-color:deeppink ;
+    border: white solid 3px;
+
 }
 body{
+    background: url("imagenes/natsi.jpg"),no-repeat,center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+#intro,#intro1,#intro2{
+    background-color: #ff68d6;
+    background-size-contain: auto;
+    border: 3px solid white;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    text-align: left;
+    display: inline;
+    position: center;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+
+}
+p{
+    background-color: #ff68d6;
+    border: 3px solid white;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    display: inline-block;
+}
+table{
+    border-spacing: 1px;
+    background-color: #ff68d6;
+    box-shadow: rgba(23,8,31,0.85);
+    box-shadow: 10px 10px;
+    color: white;
+    border-color: black;
+    border: 3px solid white;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Comic Sans MS";
+    font-size: x-large;
+    border-collapse: collapse;
+    text-align: center;
+    display: inline-block;
+
+}
+td{
+    border-spacing: 10px;
+    border-color:black;
+    color: white;
+    border: 3px solid white;
+    border-collapse: collapse;
+
+}
+th{
+    border-spacing: 10px;
+    border-color: black;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+img{
+    align-content: center;
+    border: 10px solid black;
+    border-collapse: collapse;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
 
 
 }
 
+ul{
+    background-color: #ff68d6;
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    text-align: left;
+
+}
+ol{
+    background-color: #ff68d6;
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    font-size: 20px;
+}
+li{
+    background-color: #ff68d6;
+    background-size-contain: auto;
+    border: 3px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-right-right: auto;
+    word-wrap: break-word;
+    text-rendering: auto;
+    background-clip: border-box;
+    display: inline-block;
+}
+
+hr{
+    border: 3px solid purple;
+}
+h2{
+    background-color: #ff68d6;
+    background-size-contain: auto;
+    border: 10px solid white;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    background-clip: border-box;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+a{
+    font-size: 40px;
+    position: static;
+    left: 100px;
+
+
+}
+a:visited{
+    color: aqua;
+
+}
+a:hover{
+    color: Purple;
+    size: 100px;
+}
+form{
+    color: black;
+    font-family: MathJax_Fraktur;
+    border-collapse: collapse;
+
+
+}

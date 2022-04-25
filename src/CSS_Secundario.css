@@ -33,7 +33,7 @@ th{
 
 }
 body {
-    background: url("lluviasangre2.png"),no-repeat,center;
+    background: url("imagenes/lluviasangre2.png"),no-repeat,center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -60,7 +60,7 @@ h1{
     font-size: 70px;
     margin: 10px;
     padding: 100px;
-    background-image: url("lluviasangre1.jpg");
+    background-image: url("imagenes/lluviasangre1.jpg");
     background-position: center;
     color: #df2d00;
     -webkit-text-stroke: 5px black;
@@ -149,6 +149,7 @@ img{
     margin: 1em;
     padding: 1em;
 
+
 }
 
 pre{
@@ -159,5 +160,31 @@ a{
     position: static;
     left: 100px;
 
+
+}
+a:visited{
+    color: greenyellow;
+
+}
+a:hover{
+    color: Red;
+    size: 100px;
 }
 
+form{
+    color: black;
+    font-family: MathJax_Fraktur;
+    border: 10px solid black;
+    border-collapse: collapse;
+    border-color: black;
+
+
+}
+radio{
+    color: black;
+    font-family: MathJax_Fraktur;
+    border: 10px solid black;
+    border-collapse: collapse;
+    border-color: black;
+
+}
